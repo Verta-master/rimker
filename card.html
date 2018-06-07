@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta  name="viewport" content="width=device-width,initial-scale=1">
+  <title>Печной мир: Карточка товара</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="menu menu--closed">
+      <div class="menu__wrap wrapper">
+        <button class="menu__btn"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">О нас</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Новости</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Портфолио</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Покупателям</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Юр.Лицам</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Помощь по сайту</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+        <a href="#" class="menu__cart">
+          <img src="img/icon-cart.png" alt="Корзина" width="22" height="20">
+          <span class="menu__number">5</span>
+          <span class="menu__price">43950 &#8381;</span>
+        </a>
+      </div>
+    </nav>
+    <div class="header__middle wrapper">
+      <div class="logo">
+        <img src="img/logo.svg" alt="Logo" class="logo__img" width="96" height="59">
+        <p class="logo__name"><span>Печной мир</span>первый магазин товаров для печей и  каминов</p>
+      </div>
+      <div class="header__wrap">
+        <p class="header__title"><span>печи камины барбекю</span>всё для кладки в одном месте</p>
+        <div class="header__address">
+          <div class="header__city">
+            <span>Ваш город:</span>
+            <input type="checkbox" name="city" id="city">
+            <ul class="header__list">
+              <li><a class="header__drop header__drop--active">Иркутск</a></li>
+              <li><a href="#" class="header__drop">Красноярск</a></li>
+              <li><a href="#" class="header__drop">Улан-Удэ</a></li>
+              <li><a href="#" class="header__drop">Другой</a></li>
+            </ul>
+            <label for="city" class="header__label"></label>
+          </div>
+          <a href="#" class="header__time"><span>Адреса и часы работы</span></a>
+        </div>
+        <div class="header__phone">
+          <a href="Tel:+73952908051" class="header__tel">8 (3952) 90 80 51</a>
+          <button type="button" class="header__call">Обратный звонок</button>
+        </div>
+      </div>
+    </div>
+    <nav class="card wrapper">
+      <ul class="card__list">
+        <li class="card__item">
+          <a href="#" class="card__link">материалы</a>
+        </li>
+        <li class="card__item">
+          <a href="#" class="card__link">кладка<span>печей, каминов, барбекю</span></a>
+        </li>
+        <li class="card__item">
+          <a href="#" class="card__link">ремонт<br>Отделка</a>
+        </li>
+        <li class="card__item">
+          <a href="#" class="card__link">Консультация<span>проекты, сметы, выезд мастера</span></a>
+        </li>
+        <li class="card__item">
+          <a href="#" class="card__link">доставка<span>грузчики, возврат, обмен</span></a>
+        </li>
+        <li class="card__item">
+          <a href="#" class="card__link">оплата<br>кредит</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="wrapper wrapper--internal">
+    <section class="sidebar">
+      <a href="#" class="sidebar__sale"><span>%</span> Распродажа</a>
+      <input type="checkbox" name="sidebar" id="sidebar" class="sidebar__input">
+      <label for="sidebar" class="sidebar__label">Каталог &raquo;</label>
+      
+      <div class="sidebar__block">
+        <div class="sidebar__part">
+          <h3 class="sidebar__h3">Кирпич</h3>
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <input type="checkbox" name="brick" id="brick" class="sidebar__check">
+              <div class="sidebar__field">
+                <a href="#" class="sidebar__link">Печной, ручной обработки</a>
+                <label for="brick" class="sidebar__arrow"><span class="visually-hidden">Развернуть</span></label>
+              </div>
+              <ul class="sidebar__dropdown">
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 1</a>
+                </li>
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 2</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="#" class="sidebar__link">Строительный кирпич, облицовочный</a>
+            </li>
+            <li class="sidebar__item">
+              <a href="#" class="sidebar__link">Шамотный кирпич</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar__part">
+          <h3 class="sidebar__h3">Литье для печей и каминов</h3>
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <input type="checkbox" name="stove-1" id="stove-1" class="sidebar__check">
+              <div class="sidebar__field">
+                <a href="#" class="sidebar__link">Дверцы топочные для печей и каминов</a>
+                <label for="stove-1" class="sidebar__arrow"><span class="visually-hidden">Развернуть</span></label>
+              </div>
+              <ul class="sidebar__dropdown">
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 1</a>
+                </li>
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 2</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <input type="checkbox" name="stove-2" id="stove-2" class="sidebar__check">
+              <div class="sidebar__field">
+                <a href="#" class="sidebar__link">Дверцы топочные для печей и каминов</a>
+                <label for="stove-2" class="sidebar__arrow"><span class="visually-hidden">Развернуть</span></label>
+              </div>
+              <ul class="sidebar__dropdown">
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 1</a>
+                </li>
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 2</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="#" class="sidebar__link">Дверцы топочные для печей и каминов</a>
+            </li>
+            <li class="sidebar__item">
+              <input type="checkbox" name="stove-3" id="stove-3" class="sidebar__check">
+              <div class="sidebar__field">
+                <a href="#" class="sidebar__link">Дверцы топочные для печей</a>
+                <label for="stove-3" class="sidebar__arrow"><span class="visually-hidden">Развернуть</span></label>
+              </div>
+              <ul class="sidebar__dropdown">
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 1</a>
+                </li>
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 2</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="#" class="sidebar__link">Дверцы топочные для печей</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar__part">
+          <h3 class="sidebar__h3">Все для дымохода</h3>
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <input type="checkbox" name="brick-2" id="brick-2" class="sidebar__check">
+              <div class="sidebar__field">
+                <a href="#" class="sidebar__link">Печной, ручной обработки</a>
+                <label for="brick-2" class="sidebar__arrow"><span class="visually-hidden">Развернуть</span></label>
+              </div>
+              <ul class="sidebar__dropdown">
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 1</a>
+                </li>
+                <li class="sidebar__drop">
+                  <a href="#" class="sidebar__link">Пункт 2</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="#" class="sidebar__link">Строительный кирпич, облицовочный</a>
+            </li>
+            <li class="sidebar__item">
+              <a href="#" class="sidebar__link">Шамотный кирпич</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <form action="#" method="get" class="search">
+        <input type="text" name="search" id="search" class="search__input" placeholder="Поиск товаров">
+        <button type="submit" name="search-btn" class="search__btn">Найти</button>
+      </form>
+      
+      <div class="sidebar__review">
+        <h3 class="sidebar__title">Новый отзыв о нас</h3>
+        <div class="sidebar__comment comment-border">
+          <p class="review__name sidebar__name">Николай Иванов</p>
+          <time datetime="2017-09-12T12:37:00+03:00" class="review__date">12 сентября 2017</time>
+          <p class="review__text sidebar__text">Требовался монтаж дымохода внутри кирпичной шахты коттеджа.Рубцов В. молодец, хороший специалист.Я проверил работу. Всё отлично, без опоздания, сам отзванивался, сам приезжал. Никаких нареканий.</p>
+          <a href="#" class="link review__link"><span>Оставить свой отзыв</span></a>
+        </div>
+      </div>
+      
+      <div class="sidebar__faq">
+        <h3 class="sidebar__pic">Вопрос-ответ</h3>
+        <div class="sidebar__card">
+          <p class="sidebar__question">Есть ли доставка за пределы города?</p>
+          <p class="sidebar__info">Да, доставка осуществляется в пределах всей Иркутской области.</p>
+        </div>
+        <a href="#" class="btn sidebar__btn">перейти к разделу</a>
+      </div>
+    </section>
+    
+    <section class="main">
+      <aside class="anounce">
+        <time datetime="2017-09-12T12:37:00+03:00" class="date">12 сентября 2017</time>
+        <div class="anounce__wrap">
+          <p class="anounce__text">С 20-го октября магазин “Печной мир” работает до 18:00...</p>
+          <a href="#" class="link anounce__link"><span>Подробнее</span></a>
+        </div>
+      </aside>
+      
+      <nav class="breadcrumbs">
+        <a href="#" class="breadcrumbs__link">Главная</a>
+        <a href="#" class="breadcrumbs__link">Каталог</a>
+        <a href="#" class="breadcrumbs__link">Кирпич</a>
+        <a href="#" class="breadcrumbs__link">Шамотный кирпич</a>
+        <span class="breadcrumbs__link breadcrumbs__link--active">Шаботный кирич ШБ-96 (плита)</span>
+      </nav>
+      
+      <div class="banner">
+        <div class="banner__wrap">
+          <h2 class="banner__h2">1. Заказываете</h2>
+          <ul class="banner__list">
+            <li class="banner__item">По телефону</li>
+            <li class="banner__item">На нашем сайте</li>
+            <li class="banner__item">В магазине <a href="#">(см.адреса)</a></li>
+          </ul>
+        </div>
+        <div class="banner__wrap">
+          <h2 class="banner__h2">2. Получаете</h2>
+          <ul class="banner__list">
+            <li class="banner__item">Доставка по Иркутску и области</li>
+            <li class="banner__item">Самовывоз <a href="#">(см. адреса)</a></li>
+          </ul>
+        </div>
+        <div class="banner__wrap">
+          <h2 class="banner__h2">3. Оплачиваете</h2>
+          <ul class="banner__list">
+            <li class="banner__item">Банковской картой</li>
+            <li class="banner__item">Наличными</li>
+            <li class="banner__item">Оплата по счету</li>
+          </ul>
+        </div>
+      </div>
+      
+      <section class="item">
+        <article class="item__card">
+          <div class="item__slider">
+            <div class="item__img">
+              <img src="img/card-big.jpg" alt="Жаропрочное стекло robax" class="item__big" width="470" height="340">
+              <p class="product__label product__label--new">новинка</p>
+              <p class="product__label product__label--card">Хит продаж</p>
+            </div>
+            <div class="item__gallery">
+              <div class="item__slide">
+                <img src="img/card-1.jpg" alt="Жаропрочное стекло robax" class="item__preview" width="86" height="63">
+              </div>
+              <div class="item__slide">
+                <img src="img/card-2.jpg" alt="Жаропрочное стекло robax" class="item__preview" width="86" height="63">
+              </div>
+              <div class="item__slide item__slide--active">
+                <img src="img/card-3.jpg" alt="Жаропрочное стекло robax" class="item__preview" width="86" height="63">
+              </div>
+              <div class="item__slide">
+                <img src="img/card-4.jpg" alt="Жаропрочное стекло robax" class="item__preview" width="86" height="63">
+              </div>
+              <div class="item__slide">
+                <img src="img/card-5.jpg" alt="Жаропрочное стекло robax" class="item__preview" width="86" height="63">
+              </div>
+              <div class="item__slide">
+                <img src="img/card-6.jpg" alt="Жаропрочное стекло robax" class="item__preview" width="86" height="63">
+              </div>
+              <div class="item__slide">
+                <img src="img/card-3.jpg" alt="Жаропрочное стекло robax" class="item__preview" width="86" height="63">
+              </div>
+              <div class="item__slide">
+                <img src="img/card-1.jpg" alt="Жаропрочное стекло robax" class="item__preview" width="86" height="63">
+              </div>
+            </div>
+          </div>
+          <div class="item__block">
+            <h1 class="item__title">Жаропрочное стекло robax</h1>
+            <div class="item__rating">
+              <p class="item__articul">Артикул: <span>234567</span></p>
+              <div class="stars">
+                <input id="star-5" type="radio" name="reviewStars" class="stars__radio">
+                <label title="gorgeous" for="star-5" class="stars__label"></label>
+                <input id="star-4" type="radio" name="reviewStars" class="stars__radio">
+                <label title="good" for="star-4" class="stars__label"></label>
+                <input id="star-3" type="radio" name="reviewStars" class="stars__radio">
+                <label title="regular" for="star-3" class="stars__label"></label>
+                <input id="star-2" type="radio" name="reviewStars" class="stars__radio">
+                <label title="poor" for="star-2" class="stars__label"></label>
+                <input id="star-1" type="radio" name="reviewStars" class="stars__radio">
+                <label title="bad" for="star-1" class="stars__label"></label>
+              </div>
+              <p class="item__yes">Есть в наличии</p>
+              <p class="item__no">Нет в наличии</p>
+            </div>
+            <div class="item__price">
+              <p class="item__old-price">2 640 &#8381;</p>
+              <p class="item__sale-price">1 640 &#8381;<span>/шт</span></p>
+              <span class="item__text">Товар доступен в кредит</span>
+            </div>
+            <form action="#" method="post" class="item__form">
+              <div class="item__form-wrap">
+                <div class="item__border">
+                  <button type="button" class="product__minus">-</button>
+                  <input type="text" name="number" class="product__number" value="2">
+                  <button type="button" class="product__plus">+</button>
+                </div>
+                <button type="submit" name="buy" class="btn item__buy">Добавить в корзину</button>
+              </div>
+            </form>
+            
+            <form action="#" method="post" class="click">
+              <input type="checkbox" name="open" id="open" class="click__check" checked>
+              <label for="open" class="click__title">Заказ в 1 клик</label>
+              <div class="click__drop">
+                <p class="click__text">Напишите свой номер телефона и мы Вам перезвоним и сами оформим заказ!</p>
+                <div class="click__wrap">
+                  <input type="tel" name="tel" class="click__input" placeholder="Ваш телефон">
+                  <button type="submit" name="click" class="click__btn">отправить</button>
+                </div>
+                <input type="checkbox" name="check" id="check" class="click__checkbox" checked>
+                <label for="check" class="click__label">Нажимая “Отправить”, я даю согласие на обработку персональных данных</label>
+              </div>
+            </form>
+          </div>
+        </article>
+        
+        <article class="item__description">
+          <input type="radio" name="tab" id="tab-1" class="item__radio" checked>
+          <input type="radio" name="tab" id="tab-2" class="item__radio">
+          <input type="radio" name="tab" id="tab-3" class="item__radio">
+          <input type="radio" name="tab" id="tab-4" class="item__radio">
+          <div class="item__top">
+            <label for="tab-1" class="item__name item__name--1">Описание</label>
+            <label for="tab-2" class="item__name item__name--2">Отзывы</label>
+            <label for="tab-3" class="item__name item__name--3">Доставка</label>
+            <label for="tab-4" class="item__name item__name--4">Оплата</label>
+          </div>
+          <div class="item__tab item__tab-1">
+            <p class="item__tab-text">Жаропрочное стекло Robax от известной немецкой компании "SCHOTT GLAS".</p>
+            <p class="item__tab-text">Огнеупорное стекло используется в качестве каминного или печного экрана, это дает возможность наслаждаться красотой и теплом живого огня без риска вылета искр.</p>
+            <p class="item__tab-text">Стекло Robax отличается исключительной жаростойкостью и прочностью: оно выдерживает температурные нагрузки 760°С в течении 5 часов, 560°С  до 5000 часов.</p>
+            <p class="item__tab-text">Толщина стекла - 4 мм.</p>
+            <p class="item__tab-text">Мы <span>осуществляем резку стекла любой формы именно по Вашим размерам</span>, что исключает переплату за лишние сантиметры.</p>
+          </div>
+          <div class="item__tab item__tab-2">
+            <p class="item__tab-text">Отзывы</p>
+          </div>
+          <div class="item__tab item__tab-3">
+            <p class="item__tab-text">Доставка</p>
+          </div>
+          <div class="item__tab item__tab-4">
+            <p class="item__tab-text">Оплата</p>
+          </div>
+        </article>
+        
+        <article class="item__comments">
+          <h2 class="item__title">Комментарии к товару: Жаропрочное стекло Robax</h2>
+          <div class="item__rating">
+            <p class="item__articul">Артикул: <span>234567</span></p>
+            <div class="stars">
+              <input id="star5" type="radio" name="Stars" class="stars__radio">
+              <label title="gorgeous" for="star5" class="stars__label"></label>
+              <input id="star4" type="radio" name="Stars" class="stars__radio">
+              <label title="good" for="star4" class="stars__label"></label>
+              <input id="star3" type="radio" name="Stars" class="stars__radio">
+              <label title="regular" for="star3" class="stars__label"></label>
+              <input id="star2" type="radio" name="Stars" class="stars__radio">
+              <label title="poor" for="star2" class="stars__label"></label>
+              <input id="star1" type="radio" name="Stars" class="stars__radio">
+              <label title="bad" for="star1" class="stars__label"></label>
+            </div>
+          </div>
+          <ul class="item__list">
+            <li class="item__li">
+              <div class="item__user">
+                <img src="img/user.jpg" alt="Комментарии" width="50" height="50">
+              </div>
+              <div class="item__review">
+                <div class="item__review-wrap">
+                  <p class="comment__name">Николай Иванов</p>
+                  <time datetime="2017-09-12T12:37:00+03:00" class="date">12 сентября 2017</time>
+                </div>
+                <p class="item__review-text">Стекло доставили целое. по размерам подошло</p>
+              </div>
+            </li>
+            <li class="item__li">
+              <div class="item__user">
+                <img src="img/user.jpg" alt="Комментарии" width="50" height="50">
+              </div>
+              <div class="item__review">
+                <div class="item__review-wrap">
+                  <p class="comment__name">Николай Иванов</p>
+                  <time datetime="2017-09-12T12:37:00+03:00" class="date">12 сентября 2017</time>
+                </div>
+                <p class="item__review-text">Стекло доставили целое. по размерам подошло</p>
+              </div>
+            </li>
+            <li class="item__li">
+              <div class="item__user">
+                <img src="img/user.jpg" alt="Комментарии" width="50" height="50">
+              </div>
+              <div class="item__review">
+                <div class="item__review-wrap">
+                  <p class="comment__name">Николай Иванов</p>
+                  <time datetime="2017-09-12T12:37:00+03:00" class="date">12 сентября 2017</time>
+                </div>
+                <p class="item__review-text">Стекло доставили целое. по размерам подошло</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+        
+        <article class="item__click">
+          <div class="item__click-img">
+            <img src="img/card-1-big.jpg" alt="" width="340" height="203">
+          </div>
+          <form action="#" method="post" class="click click--border">
+            <h3 class="click__h3">Жаропрочное стекло Robax</h3>
+            <span class="click__title click__title--border">Заказ в 1 клик</span>
+            <p class="click__text">Напишите свой номер телефона и мы Вам перезвоним и сами оформим заказ!</p>
+            <div class="click__wrap">
+              <input type="tel" name="tel-2" class="click__input click__input--border" placeholder="Ваш телефон">
+              <button type="submit" name="click-2" class="click__btn">отправить</button>
+            </div>
+            <input type="checkbox" name="check-2" id="check-2" class="click__checkbox" checked>
+            <label for="check-2" class="click__label">Нажимая “Отправить”, я даю согласие на обработку персональных данных</label>
+          </form>
+        </article>
+      </section>
+      
+      <div class="item__recent">
+        <h2 class="item__title item__title--recent">Другие товары из этой категории</h2>
+        <div class="swiper-container swiper1">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide product__item">
+              <p class="product__label product__label--new">новинка</p>
+              <p class="product__label product__label--hit">Хит продаж</p>
+              <a href="#" class="product__link">
+                <img src="img/brick.jpg" class="product__img" alt="Шаботный кирпич" width="210" height="156">
+                <h3 class="product__title">Шаботный кирпич ШБ-96 (плита)</h3>
+              </a>
+              <p class="product__text">Размер: 600х230х90 мм<br>Количество в поддоне: 40 шт</p>
+              <div class="product__price">
+                <p class="product__old-price">2 640 &#8381;</p>
+                <p class="product__sale-price">1 640 &#8381;</p>
+              </div>
+              <form action="#" method="post" class="product__form">
+                <button type="button" class="product__minus">-</button>
+                <input type="text" name="number" class="product__number" value="2">
+                <button type="button" class="product__plus">+</button>
+                <button type="submit" name="buy" class="product__buy">Купить</button>
+              </form>
+            </li>
+            <li class="swiper-slide product__item">
+              <p class="product__label product__label--new">новинка</p>
+              <p class="product__label product__label--hit">Хит продаж</p>
+              <a href="#" class="product__link">
+                <img src="img/brick.jpg" class="product__img" alt="Шаботный кирпич" width="210" height="156">
+                <h3 class="product__title">Шаботный кирпич ШБ-96 (плита)</h3>
+              </a>
+              <p class="product__text">Размер: 600х230х90 мм<br>Количество в поддоне: 40 шт</p>
+              <div class="product__price">
+                <p class="product__old-price">2 640 &#8381;</p>
+                <p class="product__sale-price">1 640 &#8381;</p>
+              </div>
+              <form action="#" method="post" class="product__form">
+                <button type="button" class="product__minus">-</button>
+                <input type="text" name="number" class="product__number" value="2">
+                <button type="button" class="product__plus">+</button>
+                <button type="submit" name="buy" class="product__buy">Купить</button>
+              </form>
+            </li>
+            <li class="swiper-slide product__item">
+              <p class="product__label product__label--new">новинка</p>
+              <p class="product__label product__label--hit">Хит продаж</p>
+              <a href="#" class="product__link">
+                <img src="img/brick.jpg" class="product__img" alt="Шаботный кирпич" width="210" height="156">
+                <h3 class="product__title">Шаботный кирпич ШБ-96 (плита)</h3>
+              </a>
+              <p class="product__text">Размер: 600х230х90 мм<br>Количество в поддоне: 40 шт</p>
+              <div class="product__price">
+                <p class="product__old-price">2 640 &#8381;</p>
+                <p class="product__sale-price">1 640 &#8381;</p>
+              </div>
+              <form action="#" method="post" class="product__form">
+                <button type="button" class="product__minus">-</button>
+                <input type="text" name="number" class="product__number" value="2">
+                <button type="button" class="product__plus">+</button>
+                <button type="submit" name="buy" class="product__buy">Купить</button>
+              </form>
+            </li>
+            <li class="swiper-slide product__item">
+              <p class="product__label product__label--new">новинка</p>
+              <p class="product__label product__label--hit">Хит продаж</p>
+              <a href="#" class="product__link">
+                <img src="img/brick.jpg" class="product__img" alt="Шаботный кирпич" width="210" height="156">
+                <h3 class="product__title">Шаботный кирпич ШБ-96 (плита)</h3>
+              </a>
+              <p class="product__text">Размер: 600х230х90 мм<br>Количество в поддоне: 40 шт</p>
+              <div class="product__price">
+                <p class="product__old-price">2 640 &#8381;</p>
+                <p class="product__sale-price">1 640 &#8381;</p>
+              </div>
+              <form action="#" method="post" class="product__form">
+                <button type="button" class="product__minus">-</button>
+                <input type="text" name="number" class="product__number" value="2">
+                <button type="button" class="product__plus">+</button>
+                <button type="submit" name="buy" class="product__buy">Купить</button>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper-button-next swiper-button-next1"></div>
+        <div class="swiper-button-prev swiper-button-prev1"></div>
+      </div>
+      
+      <div class="feedback">
+        <h2 class="feedback__h2">Вам нужны услуги печника?<br>Тогда воспользуйтесь бесплатной консультацией нашего специалиста.<br>Мы будем Вас ждать!</h2>
+        <form action="#" method="post" class="feedback__form">
+          <div class="feedback__wrap">
+            <input type="text" name="name" id="form-name" class="feedback__input" placeholder="Ваше имя">
+            <input type="tel" name="phone" id="form-phone" class="feedback__input" placeholder="Ваш телефон">
+            <input type="checkbox" name="time" id="form-time" class="feedback__check">
+            <div class="feedback__select">
+              <label for="form-time" class="feedback__time">Когда позвонить</label>
+              <ul class="feedback__dropdown">
+                <li><a href="#" class="feedback__drop">10:00</a></li>
+                <li><a href="#" class="feedback__drop">11:00</a></li>
+                <li><a href="#" class="feedback__drop">12:00</a></li>
+              </ul>
+            </div>
+          </div>
+          <button class="btn feedback__btn">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__wrap wrapper">
+      <div class="footer__column">
+        <input type="checkbox" name="about" id="about" class="footer__input">
+        <label for="about" class="footer__h3">О КОМПАНИИ</label>
+        <ul class="footer__list">
+          <li><a href="#" class="footer__link">О нас</a></li>
+          <li><a href="#" class="footer__link">Сотрудничество</a></li>
+          <li><a href="#" class="footer__link">Отзывы покупателей</a></li>
+          <li><a href="#" class="footer__link">Регионы деятельности</a></li>
+          <li><a href="#" class="footer__link">Наши мастера</a></li>
+          <li><a href="#" class="footer__link">Гарантия</a></li>
+          <li><a href="#" class="footer__link">Новости</a></li>
+          <li><a href="#" class="footer__link">Курсы печников</a></li>
+          <li><a href="#" class="footer__link">Партнёры</a></li>
+          <li><a href="#" class="footer__link">Блог</a></li>
+          <li><a href="#" class="footer__link">Вакансии</a></li>
+          <li><a href="#" class="footer__link">Видео</a></li>
+          <li><a href="#" class="footer__link">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <input type="checkbox" name="service" id="service" class="footer__input">
+        <label for="service" class="footer__h3">УСЛУГИ</label>
+        <ul class="footer__list">
+          <li><a href="#" class="footer__link">Ремонт и отделка</a></li>
+          <li><a href="#" class="footer__link">Печи, камины, барбекю</a></li>
+          <li><a href="#" class="footer__link">Консультация, сметы</a></li>
+          <li><a href="#" class="footer__link">Выезд мастера</a></li>
+          <li><a href="#" class="footer__link">Проекты</a></li>
+          <li><a href="#" class="footer__link">Товары на заказ</a></li>
+          <li><a href="#" class="footer__link">Изготовление дверц</a></li>
+          <li><a href="#" class="footer__link">Резка жаропрочного стекла</a></li>
+          <li><a href="#" class="footer__link">Ковка</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <input type="checkbox" name="customer" id="customer" class="footer__input">
+        <label for="customer" class="footer__h3">ПОКУПАТЕЛЯМ</label>
+        <ul class="footer__list">
+          <li><a href="#" class="footer__link">Каталог товаров</a></li>
+          <li><a href="#" class="footer__link">Как купить</a></li>
+          <li><a href="#" class="footer__link">Скидки</a></li>
+          <li><a href="#" class="footer__link">Акции</a></li>
+          <li><a href="#" class="footer__link">Возврат и обмен</a></li>
+          <li><a href="#" class="footer__link">Способы оплаты</a></li>
+          <li><a href="#" class="footer__link">Доставка, разгрузка, погрузка</a></li>
+          <li><a href="#" class="footer__link">Кредит</a></li>
+          <li><a href="#" class="footer__link">Для юридических лиц</a></li>
+          <li><a href="#" class="footer__link">Подарочные сертификаты</a></li>
+          <li><a href="#" class="footer__link">Часто задаваемые вопросы</a></li>
+        </ul>
+      </div>
+      <div class="footer__block footer__block--advice">
+        <h3 class="footer__h3">СОВЕТЫ СПЕЦИАЛИСТОВ</h3>
+        <a href="#" class="footer__link">В этом разделе вы сможете ознакомиться правилами эксплуатации и ухода за очагами, каминами, печами и отопительными комплексами</a>
+      </div>
+      <section class="footer__block">
+        <h3 class="footer__h3">Контакты</h3>
+        <p class="footer__city">Г. Иркутск</p>
+        <div class="footer__place">
+          <div>
+            <p class="footer__address">ул. Кожзаводская, 1</p>
+            <a href="Tel:+739529080518" class="footer__phone">8 (3952) 90-80-518</a>
+          </div>
+          <div>
+            <p class="footer__address">ул. Челябинская 29/151, 153 пав.</p>
+            <a href="Tel:+73952908181" class="footer__phone">8 (3952) 90-81-81</a>
+          </div>
+        </div>
+        <h3 class="footer__h3">Печной мир в соцсетях</h3>
+        <ul class="social">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/vk-logo.svg" alt="Вконтакте" class="social__img" width="22" height="12">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/facebook-logo.svg" alt="Facebook" class="social__img" width="14" height="22">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/youtube.svg" alt="Youtube" class="social__img" width="20" height="15">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/odnoklassniki-logo.svg" alt="Одноклассники" class="social__img" width="15" height="22">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img src="img/instagram-logo.svg" alt="Инстаграм" class="social__img" width="18" height="18">
+            </a>
+          </li>
+        </ul>
+        <p class="footer__logo"><span>Печной мир</span>Печи Камины барбекю<br>Все для кладки в одном месте</p>
+        <p class="footer__copyright">Информация на сайте не являестя публичной офертой. Копирование материалов допускается только с указанием активной ссылки на сайт pechnoy-mir.ru или с разрешения администрации ООО “Печной мир”.</p>
+      </section>
+    </div>
+  </footer>
+  
+  <div style="display: none;">
+    <div class="modal" id="modal">
+      <button type="button" class="modal__close arcticmodal-close"><span class="visually-hidden">Закрыть</span></button>
+      <h2 class="title-h2">Заказать обратный звонок</h2>
+      <form action="#" method="post" class="modal__form">
+        <div class="modal__field">
+          <label for="name" class="modal__label">Ваше имя:</label>
+          <input type="text" name="name" id="name" class="modal__input" required>
+        </div>
+        <div class="modal__field">
+          <label for="phone" class="modal__label">Телефон:</label>
+          <input type="tel" name="phone" id="phone" class="modal__input" required>
+        </div>
+        <div class="modal__field">
+          <label for="time" class="modal__label">Время звонка:</label>
+          <input type="text" name="time" id="time" class="modal__input">
+        </div>
+        <button type="submit" class="modal__btn">Заказать</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/swiper.jquery.min.js"></script>
+  <script>
+    $(".header__call").click(function(){
+      $(function(){
+        $("#modal").arcticmodal({
+          overlay: {
+          css: {
+            backgroundColor: "#000",
+            opacity: .8,
+            }
+          }
+        });
+      });
+    });
+  </script>
+  
+  <script>
+    var swiper = new Swiper(".swiper1", {
+      nextButton: ".swiper-button-next1",
+      prevButton: ".swiper-button-prev1",
+      slidesPerView: "auto",
+      spaceBetween: 30
+    });
+  </script>
+</body>
+</html>

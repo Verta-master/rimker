@@ -1,0 +1,151 @@
+.header__block {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  a {
+    color: #000;
+  }
+  
+  .header__drop {
+    &:hover,
+    &:active,
+    &--active {
+      color: @orange;
+    }
+  }
+}
+
+.header__compare a,
+.header__cart a {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  font-size: 14px;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  span {
+    border-bottom: 1px dashed rgba(255,255,255,0);
+    transition: ease-out 0.3s;
+  }
+  
+  &:hover,
+  &:active {
+    span {
+      border-color: #000;
+      transition: ease-out 0.3s;
+    }
+  }
+}
+
+.header__compare a {
+  margin-top: 10px;
+  
+  &::before {
+    background-image: url(../img/icon-compare.png);
+  }
+}
+
+.header__phone a {
+  display: block;
+  font-size: 19px;
+}
+
+.header__address,
+.header__call {
+  display: block;
+  padding-left: 30px;
+  margin-bottom: 5px;
+  position: relative;
+  font-size: 14px;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  span {
+    border-bottom: 1px dashed #000;
+    transition: ease-out 0.3s;
+  }
+  
+  &:hover,
+  &:active {
+    span {
+      border-color: rgba(255,255,255,0);
+      transition: ease-out 0.3s;
+    }
+  }
+}
+
+.header__address {
+  margin-bottom: 10px;
+}
+
+.header__address::before {
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/icon-pin.svg);
+}
+
+.header__call::before {
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/icon-phone.svg);
+}
+
+.header__btn {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background-image: url(../img/icon-down.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 6px 5px;
+}
+
+.header__city {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 14px;
+}
+
+.header__list {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 92px;
+  background-color: #fff;
+  z-index: 5;
+  padding: 0 5px;
+}
+
+.header__drop {
+  &:hover,
+  &:active,
+  &--active {
+    color: @orange;
+  }
+}
