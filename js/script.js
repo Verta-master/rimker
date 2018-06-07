@@ -17,3 +17,10 @@ $('.footer__btn').click(function() {
 $('.header__btn').click(function() {
   $('.header__list').slideToggle();
 })
+
+//Mobile sidebar
+if (window.innerWidth < 1022) {
+  $('.sidebar__title').click(function() {
+    $('.sidebar__list').slideToggle();
+  })
+}
