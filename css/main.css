@@ -1402,167 +1402,6 @@ button.swiper-pagination-bullet {
     margin-bottom: 15px;
 }
 
-.sidebar {
-    width: 270px;
-    padding-bottom: 60px
-}
-
-.sidebar__check,.sidebar__input,.sidebar__label {
-    display: none
-}
-
-.sidebar__sale {
-    display: block;
-    width: 270px;
-    height: 35px;
-    font-weight: 500;
-    line-height: 35px;
-    text-transform: uppercase;
-    color: #fff;
-    padding-left: 25px;
-    margin-bottom: 15px;
-    background-image: url(../img/sale.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative
-}
-
-.sidebar__sale span {
-    color: #000;
-    padding-right: 10px
-}
-
-.sidebar__sale::after {
-    content: "sale";
-    position: absolute;
-    top: 0;
-    right: 57px;
-    font-size: 11px;
-    transform: rotate(-65deg)
-}
-
-.sidebar__block {
-    background-color: #f8f8f8;
-    margin-bottom: 35px
-}
-
-.sidebar__part {
-    padding: 15px 20px;
-    border-bottom: 1px solid rgba(0,0,0,.1)
-}
-
-.sidebar__part:last-child {
-    border-bottom: none
-}
-
-.sidebar__h3 {
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 10px
-}
-
-.sidebar__link {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    color: #333
-}
-
-.sidebar__link:active,.sidebar__link:hover {
-    color: #de7627
-}
-
-.sidebar__item {
-    padding-left: 10px;
-    margin-bottom: 7px
-}
-
-.sidebar__item:last-child {
-    margin-bottom: 0
-}
-
-.sidebar__field {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-    justify-content: space-between
-}
-
-.sidebar__arrow {
-    display: block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    background-image: url(../img/arrow-orange.png);
-    background-size: 10px 5px;
-    background-repeat: no-repeat;
-    background-position: center
-}
-
-.sidebar__dropdown {
-    padding-left: 10px;
-    display: none
-}
-
-.sidebar__check:checked~.sidebar__dropdown {
-    display: block
-}
-
-.sidebar__check:checked~.sidebar__field .sidebar__arrow {
-    transform: rotate(180deg)
-}
-
-.sidebar__title {
-    font-size: 19px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px
-}
-
-.sidebar__name {
-    margin-top: 0
-}
-
-.sidebar__text {
-    margin-top: 10px
-}
-
-.sidebar__comment {
-    padding: 15px 15px 20px
-}
-
-.sidebar__pic {
-    font-size: 22px;
-    font-weight: 400;
-    padding-left: 75px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    text-align: left;
-    position: relative
-}
-
-.sidebar__card {
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 4px
-}
-
-.sidebar__question {
-    margin-top: 0;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 500
-}
-
-.sidebar__info {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 400
-}
-
 .btn {
     background-color: #f60;
     border: 0;
@@ -1586,32 +1425,8 @@ button.swiper-pagination-bullet {
     line-height: 38px
 }
 
-.anounce {
-    padding: 10px 25px;
-    margin-bottom: 25px;
-    border: 1px solid #ddd;
-    border-radius: 5px
-}
-
-.anounce__link,.anounce__text {
-    display: inline-block;
-    vertical-align: baseline
-}
-
-.anounce__text {
-    font-weight: 400;
-    margin-bottom: 0;
-    margin-top: 10px;
-    font-size: 16px
-}
-
-.anounce__link {
-    font-size: 15px;
-    padding-left: 30px
-}
-
 .breadcrumbs__link {
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 400;
     color: #333;
     margin-right: 20px;
@@ -1889,11 +1704,12 @@ button.swiper-pagination-bullet {
     justify-content: space-between;
     -ms-flex-align: start;
     align-items: flex-start;
-    padding-top: 50px
+    padding-top: 30px
 }
 
 .main {
-    width: 660px
+    width: 660px;
+    margin-bottom: 35px;
 }
 
 .main__article {
@@ -1929,10 +1745,6 @@ button.swiper-pagination-bullet {
     padding-left: 5px
 }
 
-.banner__item a:active,.banner__item a:hover,.social__link:hover span {
-    text-decoration: underline
-}
-
 .social--internal {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap
@@ -1965,105 +1777,6 @@ button.swiper-pagination-bullet {
     -ms-flex-pack: center;
     justify-content: center;
     padding-bottom: 10px
-}
-
-.banner {
-    display: -ms-flexbox;
-    display: flex;
-    padding: 45px 25px;
-    margin-top: 5px;
-    background-image: url(../img/banner.jpg);
-    background-repeat: no-repeat;
-    background-position: right top;
-    width: 100%;
-    min-height: 270px;
-    color: #fff
-}
-
-.banner__h2 {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.2;
-    text-transform: none;
-    letter-spacing: normal;
-    text-align: left
-}
-
-.banner__item {
-    padding-left: 25px;
-    margin-bottom: 10px;
-    position: relative
-}
-
-.banner__item a {
-    color: #fff
-}
-
-.banner__item::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../img/sprite.png);
-    background-repeat: no-repeat
-}
-
-.banner__list {
-    width: 230px;
-    padding-right: 30px
-}
-
-.banner__wrap:first-child .banner__item:first-child::before {
-    width: 21px;
-    height: 20px;
-    background-position: -88px -10px
-}
-
-.banner__wrap:first-child .banner__item:nth-child(2)::before {
-    width: 23px;
-    height: 20px;
-    background-position: -171px -10px
-}
-
-.banner__wrap:first-child .banner__item:nth-child(3)::before {
-    width: 22px;
-    height: 20px;
-    background-position: -129px -10px
-}
-
-.banner__wrap:nth-child(2) .banner__item:first-child::before {
-    top: 15px;
-    left: -5px;
-    width: 26px;
-    height: 15px;
-    background-position: -260px -10px
-}
-
-.banner__wrap:nth-child(2) .banner__item:nth-child(2)::before {
-    left: -5px;
-    width: 20px;
-    height: 20px;
-    background-position: -48px -10px
-}
-
-.banner__wrap:nth-child(3) .banner__item:first-child::before {
-    left: -5px;
-    width: 26px;
-    height: 20px;
-    background-position: -214px -10px
-}
-
-.banner__wrap:nth-child(3) .banner__item:nth-child(2)::before {
-    left: -5px;
-    width: 28px;
-    height: 17px;
-    background-position: -306px -10px
-}
-
-.banner__wrap:nth-child(3) .banner__item:nth-child(3)::before {
-    width: 18px;
-    height: 20px;
-    background-position: -10px -10px
 }
 
 .sort {
@@ -2818,11 +2531,6 @@ button.swiper-pagination-bullet {
     background-color: transparent;
     background-size: contain;
     transform: rotate(90deg)
-}
-
-a.sidebar__h3 {
-    color: #333;
-    display: block
 }
 
 .product__form .error {
