@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta  name="viewport" content="width=device-width,initial-scale=1">
   <title>Кирпичный мир: Каталог</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -352,29 +353,24 @@
     </div>
   </footer>
   
-  <div style="display: none;">
-    <div class="modal" id="modal">
-      <button type="button" class="modal__close arcticmodal-close"><span class="visually-hidden">Закрыть</span></button>
-      <h2 class="title-h2">Заказать обратный звонок</h2>
-      <form action="#" method="post" class="modal__form">
-        <div class="modal__field">
-          <label for="name" class="modal__label">Ваше имя:</label>
-          <input type="text" name="name" id="name" class="modal__input" required>
-        </div>
-        <div class="modal__field">
-          <label for="phone" class="modal__label">Телефон:</label>
-          <input type="tel" name="phone" id="phone" class="modal__input" required>
-        </div>
-        <div class="modal__field">
-          <label for="time" class="modal__label">Время звонка:</label>
-          <input type="text" name="time" id="time" class="modal__input">
-        </div>
-        <button type="submit" class="modal__btn">Заказать</button>
-      </form>
-    </div>
+  <!-- Modal window -->
+  <div style="display: none;" id="call" class="modal">
+    <p class="modal__title">Заказать обратный звонок</p>
+    <form action="#" method="post" class="modal__form">
+      <input type="text" name="name" class="modal__input" placeholder="Ваше имя">
+      <input type="tel" name="phone" class="modal__input" placeholder="Номер телефона">
+      <button type="submit" class="modal__btn">Заказать</button>
+    </form>
+  </div>
+  
+  <div style="display: none;" id="address" class="modal">
+    <p class="modal__title">Наши адреса</p>
+    <p>Наш адрес 1</p>
+    <p>Наш адрес 2</p>
   </div>
   
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
 </body>
 </html>
