@@ -1,0 +1,211 @@
+.card {
+  margin-bottom: 20px;
+}
+
+.card__title {
+  font-family: "GT Walsheim Pro","Arial",sans-serif;
+  font-size: 33px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.card__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card__block-slider {
+  width: 340px;
+}
+
+.card__block-price {
+  width: 285px;
+}
+
+.card__sell {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  background-color: #f3f3f3;
+}
+
+.card__price {
+  font-family: "GT Walsheim Pro","Arial",sans-serif;
+  font-size:17px;
+  margin: 0;
+  
+  span {
+    font-size: 36px;
+  }
+}
+
+.card__buy {
+  width: 115px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px solid rgb(213, 213, 213);
+}
+
+.card__btn {
+  width: 30%;
+  height: 100%;
+  padding: 0;
+  font-size: 17px;
+  text-align: center;
+  background-color: rgba(255,255,255,0);
+}
+
+.card__cart {
+  width: 100%;
+  height: 51px;
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: @orange;
+  background-image: linear-gradient(to top, rgb(242,96,45) 0%, rgb(246,142,22) 100%);
+  transition: ease-out 0.3s;
+  
+  &:hover,
+  &:active {
+    background-image: none;
+    transition: ease-out 0.3s;
+  }
+}
+
+.card__comment {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.card__click {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid rgb(200, 200, 200);
+  
+  p {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+}
+
+.card__drop {
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAABIElEQVQokY3RPSjFYRQG8N/fvZFyU5II5eNuTAZdszIoBpvB5JoUSSYWX5klMliU0WJQFouFDWUlpXxEirKIm+H/3tK/e+VM533P8zznnOdETdORMlGLCeQxiyN8J0HpMuQqDGEVlVjBPc6TwFQmV3KCfqyjLrwbQ7MLvP0GVpQg92ERrfjCMwoYx2gSnBTIivfN4R3bGMZlqOcxUm6FaixjLLyPMYnrINaDzrDOOZ6SAvNi16twhinchdoVmtGLjtDsEIWiQB4zaBAbtYDTxHqXaEdX8CeNk1QmFw2Kz9WGB6xhP2kWPsQX6A5TZHGbyuSi3fAZYQlbJcjFuMEnBlCPjgrUiK+xib0/yMU4wEbIW9KYCyMd4vEfAq/YCfnLD4tYNqLcRQftAAAAAElFTkSuQmCC');
+  background-position: right center;
+  background-size: 9px 7px;
+  background-repeat: no-repeat;
+  
+  &--closed {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEwSURBVDhPjdG9SwJxHMfx79UgPWiL0MPQUBQFgUINETQEQUGE/QEtzhFF0GAPkEFb1FQ0tDRFRH9BUy05SYVQEBioSw9TFIFI9P6oF3aJ9IGX9zvv7sP3d+e0LzjLZhbEIR7wn3RiCul6/7BzymISn0iWj7XShhjiCNXxk4Myj0hpWTOzmMMX3jXBK4sRaBsaLV1WLVGswQ/dE1PBPYtmhNAFHy7xgcpMYBU9yGILJyrgaFfoQxi90NbO4WYAOxjCG/axC3MLtJ9H9ENTdOAZKbTgAGNQjrCOgk7cAuUJah9EN1R0g0VMQ1s7wyZUXkxlgXKHRoyjFTMYRQMS2MAtfuItUPSCAtAkTdD70H9LuMCv6KI3GezhunhmlscK/jysVJtAeYGKNMU2juH9rMTsG/d1PNEKr0aJAAAAAElFTkSuQmCC');
+  }
+}
+
+.card__input {
+  width: 148px;
+  height: 34px;
+  padding: 0 10px;
+  font-size: 11px;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 10px;
+}
+
+.card__submit {
+  width: 88px;
+  height: 30px;
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #196f01;
+  transition: ease-out 0.3s;
+  
+  &:hover,
+  &:active {
+    background-color: #145b01;
+    transition: ease-out 0.3s;
+  }
+}
+
+.card__check {
+  display: none;
+}
+
+.card__check:checked + .card__label::after {
+  display: block;
+}
+
+.card__label {
+  display: block;
+  margin-top: 10px;
+  position: relative;
+  padding-left: 30px;
+  font-size: 8px;
+  cursor: pointer;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(213, 213, 213);
+  }
+  
+  &::after {
+    display: none;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid @orange;
+    border-right: 2px solid @orange;
+    transform: rotate(45deg);
+  }
+}
+
+.catalog__rating span {
+  color: #afafaf;
+  font-size: 16px;
+}
+
+.card__img {
+  width: 100%;
+  height: 230px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__thumb {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}

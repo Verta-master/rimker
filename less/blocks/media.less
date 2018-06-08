@@ -118,10 +118,10 @@
   .show__item {
     margin-right: 0;
   }
-  .info {
+  .info-text {
     display: block;
   }
-  .info__block {
+  .info-text__block {
     width: 100%;
     margin-top: 20px;
     min-height: auto;
@@ -176,8 +176,12 @@
       transform: rotate(180deg)
   }
   .sidebar {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .sidebar__menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .sidebar__title {
     cursor: pointer;
@@ -227,6 +231,27 @@
   .breadcrumbs__link {
     font-size: 16px;
   }
+  .card__wrap--slider {
+    display: block;
+  }
+  .card__block-price,
+  .card__block-slider {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .info__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .info__label {
+    margin-bottom: 20px;
+  }
+  .info__label::after {
+    bottom: -10px;
+  }
 }
 
 //--------------------------
@@ -255,5 +280,12 @@
   }
   .sidebar {
     width: 100%;
+  }
+  .card__title {
+    font-size: 30px;
+  }
+  .card__block-price,
+  .card__block-slider {
+    width: 290px;
   }
 }
